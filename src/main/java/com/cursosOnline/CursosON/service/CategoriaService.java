@@ -18,7 +18,7 @@ public class CategoriaService {
         return categoriaRepository.save(categoria);
     }
 
-    //obtener todos los datos de la lista
+    //obtener todos los datos de la lista metodo get
     public List<Categoria> obtenerCategorias(){
             return categoriaRepository.findAll();
 
